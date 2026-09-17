@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch the Dot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Catch the Dot 🎯</h1>
+    <div class="score-board">
+      <p>Score: <span id="score">0</span></p>
+      <p>Time: <span id="time">30</span>s</p>
+    </div>
+    
+    <div id="gameArea">
+      <div id="dot"></div>
+    </div>
+    
+    <button id="startBtn">Start Game</button>
+    <p id="message" class="hidden">Game Over! Click Start to play again</p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
